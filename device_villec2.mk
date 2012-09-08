@@ -21,7 +21,8 @@ PRODUCT_COPY_FILES += \
     device/htc/villec2/recovery/sbin/choice_fn:recovery/root/sbin/choice_fn \
     device/htc/villec2/recovery/sbin/detect_key:recovery/root/sbin/detect_key \
     device/htc/villec2/recovery/sbin/offmode_charging:recovery/root/sbin/offmode_charging \
-    device/htc/villec2/recovery/sbin/power_test:recovery/root/sbin/power_test
+    device/htc/villec2/recovery/sbin/power_test:recovery/root/sbin/power_test \
+    device/htc/villec2/recovery/sbin/htcbatt:recovery/root/sbin/htcbatt
 
 #$(call inherit-product, build/target/product/full.mk)
 
